@@ -12,7 +12,6 @@ Currently, two official plugins are available:
 # System Dependencies
 
 Note: You will need your own .env file in the root folder, and define VITE_GOOGLE_MAPS_API_KEY so it equals your Google Maps API Key wrapped in quotation marks. Can use the .env.example file I provided, just be sure to rename it to .env and paste your key there. You will need to create a [Google Maps API Key](https://developers.google.com/maps/documentation/embed/get-api-key) first.
-You may also need to set SKIP_PREFLIGHT_CHECK=true as a workaround, as I was using some older dependencies a while ago.
 
 ## Available Scripts
 

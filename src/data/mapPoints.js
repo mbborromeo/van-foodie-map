@@ -7,12 +7,6 @@ export default {
       desc: "Modern, chic setting, with good coffee and excellent food!",
     },
     {
-      label: "Whitewood Coffee",
-      lat: 49.257352522625744,
-      lng: -123.12725827916513,
-      desc: "Cozy place that serves a hearty scrambled egg on toast!",
-    },
-    {
       label: "Velo Star Cafe & Bike Repair",
       lat: 49.25716443111373,
       lng: -123.12025200377371,
@@ -156,6 +150,12 @@ export default {
       desc: "Unique hot chocolate concoctions drawing on inspiration from around the world!",
     },
     {
+      label: "Lumiere Cafe",
+      lat: 49.26437771005661,
+      lng: -123.16885999466795,
+      desc: "Modern, cozy, split-level cafe with lots of light",
+    },
+    {
       label: "JJ Bean Coffee Roasters",
       lat: 49.258401940945866,
       lng: -123.1009314442571,
@@ -288,12 +288,6 @@ export default {
       desc: "Cozy, little cafe with good coffee and food",
     },
     {
-      label: "Paragon Tea Room",
-      lat: 49.256112437988826,
-      lng: -123.11544804602943,
-      desc: "Unique matcha misto oat latte and a life-sized model of Wall-e!",
-    },
-    {
       label: "Cafe Cittadella",
       lat: 49.26487201356924,
       lng: -123.11726952339187,
@@ -316,20 +310,10 @@ export default {
       lng: -123.14077946178995,
     },
     {
-      label: "Willow Cafe Bakery",
-      lat: 49.25719394900175,
-      lng: -123.12190728174963,
-    },
-    {
       label: "Mon Pitou Bakery",
       lat: 49.26560354014844,
       lng: -123.1362842832091,
       desc: "Chic, little corner French cafe",
-    },
-    {
-      label: "Halfday Tea & Flower",
-      lat: 49.263526903254515,
-      lng: -123.12399052182133,
     },
     {
       label: "Elysian Coffee",
@@ -340,12 +324,7 @@ export default {
       label: "Aperture Coffee Bar",
       lat: 49.26333017773583,
       lng: -123.11048120087727,
-    },
-    {
-      label: "Black Coffeehouse",
-      lat: 49.26316437340903,
-      lng: -123.10470895919948,
-    },
+    }
   ],
 
   JuiceBars: [

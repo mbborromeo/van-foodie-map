@@ -1,6 +1,13 @@
 # Vancouver Foodie Map
 
-This project calls Google Maps API to plot cafes I've been to using latitute and longitude information listed in a JSON file.
+React website project which calls Google Maps API to plot cafes I've been to using latitute and longitude information listed in a JSON file.
+
+Note: This project was setup in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # System Dependencies
 
@@ -20,12 +27,9 @@ Install the project and system dependencies.
 Runs the app in the development mode.\
 Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### `npm run build`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build files required for deployment.
 
 ## Expanding the ESLint configuration
 

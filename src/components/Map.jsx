@@ -6,7 +6,7 @@ import NearbyAttractions from "./sections/NearbyAttractions";
 import Point from "./elements/Point";
 import mapPoints from "../data/mapPoints";
 
-const myAPIKey = import.meta.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+const myAPIKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const Map = ({ center, zoom }) => {
   const [activeCategory, setActiveCategory] = useState("CafesAndBakeries");
@@ -98,8 +98,8 @@ const Map = ({ center, zoom }) => {
 
   // Re-center map when resizing the window
   const bindResizeListener = (map, gmapsObj, bounds) => {
-    gmapsObj.event.addDomListenerOnce(map, "idle", () => {
-      gmapsObj.event.addDomListener(window, "resize", () => {
+    gmapsObj.event.addListenerOnce(map, "idle", () => {
+      window.addEventListener("resize", () => {
         map.fitBounds(bounds);
       });
     });

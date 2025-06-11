@@ -165,7 +165,7 @@ export default {
       label: "Trees Coffee - Waterfront",
       lat: 49.28494697791228,
       lng: -123.1142944238165,
-      desc: "Live music on Friday nights",
+      desc: "Live music on Thursday nights",
     },
     {
       label: "Railtown Cafe",
@@ -268,6 +268,12 @@ export default {
       lat: 49.28365791771528,
       lng: -123.1028489228671,
       desc: "Cool place in the heart of Gastown",
+    },
+    {
+      label: "Nelson the Seagull",
+      lat: 49.284231128321544,
+      lng: -123.10415505227627,
+      desc: "Modern, spacious cafe/bakery in Gastown",
     },
     {
       label: "Cafe Villagio",
